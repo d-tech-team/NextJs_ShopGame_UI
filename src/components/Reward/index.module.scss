@@ -1,0 +1,35 @@
+:root {
+    $size : 14px
+}
+
+.Reward {
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+
+    &__tab {
+        table {
+            margin-top: 30px;
+            text-align: center;
+
+            tbody {
+                tr {
+                    padding: 10px !important;
+
+                    td {
+                        font-size: 14px !important;
+
+                        svg {
+                            background-color: aquamarine;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+
+
+}

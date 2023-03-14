@@ -16,8 +16,11 @@
     "incremental": true,
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "noImplicitAny": true,
+
+
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/EmptyLayout.jsx", "src/components/MainLayout.jsx", "src/pages/_app.jsx"],
   "exclude": ["node_modules"]
 }

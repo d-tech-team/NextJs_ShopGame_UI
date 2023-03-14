@@ -1,0 +1,28 @@
+.category {
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    img {
+        width: 100%;
+        border-radius: 10px;
+        max-height: 130px;
+        height: 130px;
+    }
+
+    h6 {
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 16px;
+        color: rgb(31, 29, 29)
+    }
+
+    p {
+        font-size: 13px;
+        color: #b4b3b3;
+    }
+
+    &:hover {
+        box-shadow:  5px 5px #eee;
+    }
+}

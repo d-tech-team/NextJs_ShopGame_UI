@@ -1,0 +1,43 @@
+.navbar {
+
+    border-bottom: 1px solid #eee;
+
+    &__menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+
+        li {
+            list-style-type: none;
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight: 500;
+                font-size: 14px;
+
+                &:not(.button_recharge):hover {
+                    border-bottom: 1px solid  blue;
+                    color: blue;
+
+                }
+
+                svg {
+                    font-size: 25px;
+                }
+
+                &:has(svg):hover {
+                    border-bottom: none !important;
+                }
+            }
+        }
+    }
+}
+
+.button_recharge {
+    background: blue;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white !important;
+}
