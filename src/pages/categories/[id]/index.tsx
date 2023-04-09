@@ -1,13 +1,10 @@
 import BreadCrumb from "@/components/BreadCrumb";
-import React, { useEffect } from "react"
 import { Col, Container, Form, Pagination, Row } from "react-bootstrap";
 import { Search } from "react-bootstrap-icons";
 import styles from './index.module.scss'
 import Account from "@/components/Account";
 import Head from "next/head";
 import Link from "next/link";
-
-
 
 const breadcrumb = [
     {
@@ -18,6 +15,7 @@ const breadcrumb = [
 
 export default function Layout(props: any) {
     return <div className={`${styles.Category} SlugCategory mt-5`}>
+        <Container>
         <Head>
             <title>
                 Nick liên quân
@@ -83,5 +81,6 @@ export default function Layout(props: any) {
                 </Pagination>
             </div>
         </Row>
+        </Container>
     </div>
 }

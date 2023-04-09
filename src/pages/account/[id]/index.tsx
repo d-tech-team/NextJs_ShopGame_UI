@@ -2,7 +2,7 @@
 
 import BreadCrumb from '@/components/BreadCrumb'
 import styles from './index.module.scss'
-import { Button, Card, Col, Row, Table } from 'react-bootstrap'
+import { Button, Card, Col, Container, Row, Table } from 'react-bootstrap'
 import ModalBuy from '@/components/Modal/BuyAccount'
 import Divider from '@/components/Divider'
 import Carousel from '@/components/Carousel'
@@ -32,6 +32,7 @@ export default function Layout() {
     }
 
     return <div className={styles.slugAccount}>
+        <Container>
         <BreadCrumb data={breadcrumb} />
         <Row>
             <Col md={7} >
@@ -101,5 +102,6 @@ export default function Layout() {
             {Array(5).fill(0).map(() => <Col><Account /></Col>)}
         </Row>
         <ModalBuy isShow={isBuy} handleClose={handleClose} />
+        </Container>
     </div>
 } 
