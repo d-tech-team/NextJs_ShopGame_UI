@@ -1,0 +1,20 @@
+.ModalBuy {
+
+    td {
+        font-size: 14px;
+
+        &:first-child {
+            color: gray;
+        }
+
+        &:last-child {
+            float: right;
+        }
+    }
+
+    button:has(.btn-submit) {
+        font-size: 14px;
+        font-weight: 600;
+        background: blue;
+    }
+}

@@ -1,0 +1,41 @@
+.User_Infor {
+    margin-top: 20px;
+
+    td {
+        font-size: 14px;
+
+        &:first-child {
+            color: gray;
+        }
+
+        &:last-child {
+            float: right;
+            font-weight: 600
+        }
+    }
+
+    label {
+        font-weight: 550;
+        font-size: 13px;
+    }
+
+    input {
+        height: 38px;
+        font-size: 13px;
+        border: 1px solid #eee;
+
+        &:focus {
+            box-shadow: none;
+            border: 1px solid blue;
+        }
+    }
+
+    button {
+        height: 38px;
+        margin-top: 20px;
+        font-size: 14px;
+        padding: 0 30px;
+        background: blue;
+        float: right;
+    }
+}

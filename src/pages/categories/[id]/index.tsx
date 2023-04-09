@@ -5,6 +5,7 @@ import { Search } from "react-bootstrap-icons";
 import styles from './index.module.scss'
 import Account from "@/components/Account";
 import Head from "next/head";
+import Link from "next/link";
 
 
 
@@ -58,7 +59,9 @@ export default function Layout(props: any) {
         </div>
 
         <Row className={styles.Category__account}>
-            {Array(5).fill(0).map(() => <Col> <Account /> </Col>)}
+            {Array(5).fill(0).map(() => <Col>  <Link href={'/account/1'} >
+                <Account />
+            </Link> </Col>)}
 
             <div className={`mt-5 d-flex justify-content-center SlugCategory__pagination`}>
                 <Pagination>

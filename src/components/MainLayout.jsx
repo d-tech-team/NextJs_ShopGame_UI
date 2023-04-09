@@ -4,13 +4,14 @@ import Header from "./Header"
 
 
 export default ({ children }) => {
+
     return <>
         <Header />
         <main>
-            <Container className="vh-100">
+            <Container className="min-vh-100">
                 {children}
             </Container>
         </main>
         <Footer />
     </>
-}
+} 

@@ -1,0 +1,22 @@
+.Purchase_History {
+    button {
+        font-size: 14px;
+        font-weight: 600;
+        background: blue;
+    }
+
+    td {
+        font-size: 14px;
+    }
+
+    thead {
+        td {
+            font-weight: 600;
+        }
+    }
+
+    tbody {
+        width: 300px;
+        overflow-y: scroll;
+    }
+}
