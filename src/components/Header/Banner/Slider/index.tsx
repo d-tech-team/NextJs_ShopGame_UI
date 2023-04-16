@@ -2,7 +2,7 @@ import { Carousel } from "react-bootstrap"
 import styles from './index.module.scss'
 
 export default () => {
-  return (<Carousel className={styles.slider}>
+  return (<div><Carousel className={styles.slider}>
     <Carousel.Item>
       <img
         className="d-block w-100"
@@ -40,5 +40,5 @@ export default () => {
         </p>
       </Carousel.Caption>
     </Carousel.Item>
-  </Carousel>)
+  </Carousel></div>)
 }

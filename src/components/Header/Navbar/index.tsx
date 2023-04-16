@@ -40,10 +40,10 @@ const menu = [
 
 export default () => {
     return (
-        <>
+        <div>
             <Navbar expand="lg" className={styles.navbar}>
                 <Container>
-                    <Navbar.Brand href="#home" className='mr-auto p-2'><Link href='/' >  <Image src='/images/logo.png' width={100} height={50} alt='this is a logo' /></Link>  </Navbar.Brand>
+                    <Navbar.Brand className='mr-auto p-2'><Link href='/' >  <Image src='/images/logo.png' width={100} height={50} alt='this is a logo' /></Link>  </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className={styles.navbar__menu}>
@@ -61,7 +61,7 @@ export default () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </>
+        </div>
     )
 }
 

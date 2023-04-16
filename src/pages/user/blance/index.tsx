@@ -1,3 +1,4 @@
+import React from "react";
 import styles from './index.module.scss'
 import BreadCrumb from "@/components/BreadCrumb"
 import { Button, Card, Col, Form, Row, Table } from "react-bootstrap"
@@ -11,7 +12,7 @@ const breadcrumb = [
     }
 ]
 export default function Layout() {
-    return <Row className={`${styles.Purchase_History}`}>
+    return <div><Row className={`${styles.Purchase_History}`}>
         <div className={`col-md-9 mx-auto`}>
             <BreadCrumb data={breadcrumb} />
             <Row>
@@ -226,4 +227,5 @@ export default function Layout() {
             </Row>
         </div>
     </Row>
+    </div>
 }

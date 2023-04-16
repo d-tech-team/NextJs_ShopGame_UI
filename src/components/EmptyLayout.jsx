@@ -1,6 +1,6 @@
-
+import React from "react";
 export default ({ children }) => {
-    return <>
+    return <div>
         {children}
-    </>
+    </div>
 } 

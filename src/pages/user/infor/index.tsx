@@ -10,7 +10,7 @@ const breadcrumb = [
     }
 ]
 export default function Layout() {
-    return <Row className={`${styles.User_Infor}`}>
+    return <div> <Row className={`${styles.User_Infor}`}>
         <div className={`col-md-9 mx-auto`}>
             <BreadCrumb data={breadcrumb} />
             <Row>
@@ -75,5 +75,5 @@ export default function Layout() {
             </Row>
         </div>
     </Row>
-
+  </div>
 }
