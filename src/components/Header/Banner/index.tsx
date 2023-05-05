@@ -5,7 +5,6 @@ import Slider from "./Slider"
 
 export default () => {
     return (
-        <div>
             <Container className="mt-3">
                 <Row>
                     <Col md={4}>
@@ -16,8 +15,5 @@ export default () => {
                     </Col>
                 </Row>
             </Container>
-        </div>
-
-
     )
 }

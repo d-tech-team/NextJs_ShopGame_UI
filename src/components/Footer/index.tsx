@@ -17,7 +17,7 @@ export default () => {
                         Uy Tín Tạo Niềm Tin Với Hơn 100.000 Giao Dịch Mỗi Ngày.</p>
                     <img src="/images/dmca.png" alt="" />
                 </Col>
-                <Col md={3}>
+                <Col sm={6} md={3} className={styles.Footer__link}>
                     <h5>Thông tin chung</h5>
                     <ul>
                         <li>Về chúng tôi</li>
@@ -28,7 +28,7 @@ export default () => {
                         <li>Về chúng tôi</li>
                     </ul>
                 </Col>
-                <Col md={3}>
+                <Col sm={6} md={3} className={styles.Footer__link}>
                     <h5>Thông tin chung</h5>
                     <ul>
                         <li>Về chúng tôi</li>

@@ -3,6 +3,7 @@
     padding: 10px;
     border-radius: 10px;
     padding-bottom: 30px;
+    text-align: center;
     img {
         width: 100%;
         border-radius: 10px;
@@ -24,4 +25,16 @@
 
     &:hover {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;    }
+    button {
+        font-size: 12px;
+        background: transparent;
+        border: 1px solid blue;
+        color: blue;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .category {
+        margin-top: 20px;
+    }
 }

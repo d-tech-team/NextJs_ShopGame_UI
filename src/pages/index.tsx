@@ -12,7 +12,7 @@ export default function Home() {
       <Container className='mt-5'>
         <h5 className='text-uppercase text-dark'>Danh mục game</h5>
         <Row>
-          {Array(5).fill(0).map((i, item) => <Col key={i}>
+          {Array(5).fill(0).map((i, item) => <Col md={3} sm={6} xs={6} key={i}>
             <Link href={'/categories/1'} >
               <Category />
             </Link>
@@ -20,7 +20,7 @@ export default function Home() {
         </Row>
         <h5 className='text-uppercase text-dark mt-5'>Danh mục random</h5>
         <Row>
-          {Array(5).fill(0).map((i, item) => <Col key={i}>
+          {Array(5).fill(0).map((i, item) => <Col md={3} sm={6} xs={6} key={i}>
             <Link href={'/categories/1'} >
               <Category />
             </Link>

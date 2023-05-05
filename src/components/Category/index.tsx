@@ -1,3 +1,4 @@
+import { Button } from 'react-bootstrap'
 import styles from './index.module.scss'
 
 
@@ -7,6 +8,7 @@ export default ({ thumbnail = '/images/thumbnail.gif', title = 'Category', quanl
             <img src={thumbnail} alt='thumbnail' />
             <h6>{title}</h6>
             <p> Số tài khoản: {quanlity} </p>
+            <Button>Xem thêm</Button>
         </div>
     )
 }

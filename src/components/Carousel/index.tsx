@@ -16,5 +16,5 @@ export default ({ images }) => {
         },
     ];
 
-    return <div><ImageGallery items={images} /></div> 
+    return <ImageGallery items={images} />
 } 

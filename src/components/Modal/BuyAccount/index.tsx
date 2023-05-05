@@ -7,7 +7,6 @@ import Divider from "@/components/Divider";
 export default ({ isShow, handleClose }) => {
 
     return (
-        <div>
             <Modal size="sm" show={isShow} onHide={handleClose} className={styles.ModalBuy} >
                 <Modal.Header closeButton>
                     <Modal.Title className="text-center w-100"><h5> Xác nhận mua hàng</h5></Modal.Title>
@@ -58,5 +57,5 @@ export default ({ isShow, handleClose }) => {
                     </Button>
                 </Modal.Footer>
             </Modal>
-        </div>)
+        )
 }  
