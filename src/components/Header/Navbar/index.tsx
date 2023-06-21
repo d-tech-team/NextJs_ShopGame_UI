@@ -57,8 +57,8 @@ export default () => {
                         <li className='d-md-block d-none'><Link href='/auth/signin'> Đăng nhập</Link></li>
                         <li className='d-md-block d-none'><Link href='/auth/signup'> Đăng ký</Link></li>
                         <div className={`${styles.navbar__menu__button} d-md-none d-block d-flex justify-content-between`}>
-                            <Button className={styles.navbar__menu__button__signin}>Đăng nhập</Button>
-                            <Button className={styles.navbar__menu__button__signup}>Đăng ký</Button>
+                            <Link href='/auth/signin'><Button className={styles.navbar__menu__button__signin}>Đăng nhập</Button> </Link>
+                            <Link href='/auth/signup'><Button className={styles.navbar__menu__button__signup}>Đăng ký</Button> </Link>
                         </div>
                     </Nav>
                 </Navbar.Collapse>

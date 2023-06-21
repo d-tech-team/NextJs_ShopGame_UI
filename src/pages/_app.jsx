@@ -5,13 +5,13 @@ import MainLayout from "@/components/MainLayout";
 import { SSRProvider } from "react-bootstrap";
 
 function MyApp({ Component, pageProps }) {
-  const Layout = Component.Layout || MainLayout;
+  // const Layout = Component.Layout || MainLayout;
 
   return (
     <SSRProvider>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      {/* <Layout> */}
+      <Component {...pageProps} />
+      {/* </Layout> */}
     </SSRProvider>
   );
 }

@@ -28,7 +28,6 @@
   },
   "devDependencies": {
     "@types/react-image-gallery": "^1.2.0",
-    "ngrok": "^4.3.3",
     "sass": "^1.58.3"
   }
 }

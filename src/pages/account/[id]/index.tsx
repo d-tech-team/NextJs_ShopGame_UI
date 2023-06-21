@@ -8,6 +8,7 @@ import Divider from '@/components/Divider'
 import Carousel from '@/components/Carousel'
 import Account from '@/components/Account'
 import { useState } from 'react'
+import MainLayout from '@/components/MainLayout'
 
 
 
@@ -31,7 +32,7 @@ export default function Layout() {
         setIsBuy(false)
     }
 
-    return <div className={styles.slugAccount}>
+    return <MainLayout> <div className={styles.slugAccount}>
         <Container>
             <BreadCrumb data={breadcrumb} />
             <Row>
@@ -104,4 +105,5 @@ export default function Layout() {
             <ModalBuy isShow={isBuy} handleClose={handleClose} />
         </Container>
     </div>
+    </MainLayout>
 } 
