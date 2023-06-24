@@ -1,6 +1,7 @@
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
-export default ({ images }) => {
+
+export default  ({ images }) => {
     images = [
         {
             original: 'https://picsum.photos/id/1018/1000/600/',
